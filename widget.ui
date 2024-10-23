@@ -26,8 +26,8 @@
   <widget class="QLabel" name="Label_1">
    <property name="geometry">
     <rect>
-     <x>350</x>
-     <y>40</y>
+     <x>370</x>
+     <y>100</y>
      <width>100</width>
      <height>40</height>
     </rect>
@@ -48,8 +48,8 @@
   <widget class="QLabel" name="Label_5">
    <property name="geometry">
     <rect>
-     <x>350</x>
-     <y>100</y>
+     <x>370</x>
+     <y>160</y>
      <width>100</width>
      <height>40</height>
     </rect>
@@ -70,8 +70,8 @@
   <widget class="QLabel" name="Label_3">
    <property name="geometry">
     <rect>
-     <x>350</x>
-     <y>160</y>
+     <x>370</x>
+     <y>220</y>
      <width>100</width>
      <height>40</height>
     </rect>
@@ -92,8 +92,8 @@
   <widget class="QLabel" name="Label_4">
    <property name="geometry">
     <rect>
-     <x>350</x>
-     <y>220</y>
+     <x>370</x>
+     <y>280</y>
      <width>111</width>
      <height>40</height>
     </rect>
@@ -111,8 +111,8 @@
   <widget class="QLabel" name="Label_2">
    <property name="geometry">
     <rect>
-     <x>350</x>
-     <y>280</y>
+     <x>370</x>
+     <y>340</y>
      <width>100</width>
      <height>40</height>
     </rect>
@@ -139,8 +139,8 @@
   <widget class="QLabel" name="FileName">
    <property name="geometry">
     <rect>
-     <x>470</x>
-     <y>50</y>
+     <x>490</x>
+     <y>110</y>
      <width>120</width>
      <height>20</height>
     </rect>
@@ -168,8 +168,8 @@
   <widget class="QLabel" name="Contraction">
    <property name="geometry">
     <rect>
-     <x>490</x>
-     <y>290</y>
+     <x>510</x>
+     <y>350</y>
      <width>100</width>
      <height>20</height>
     </rect>
@@ -179,6 +179,32 @@
    </property>
   </widget>
   <widget class="QLabel" name="Resolution">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>230</y>
+     <width>120</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Color_depth">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>290</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Size">
    <property name="geometry">
     <rect>
      <x>490</x>
@@ -191,43 +217,30 @@
     <string/>
    </property>
   </widget>
-  <widget class="QLabel" name="Color_depth">
-   <property name="geometry">
-    <rect>
-     <x>490</x>
-     <y>230</y>
-     <width>100</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-  </widget>
-  <widget class="QLabel" name="Size">
-   <property name="geometry">
-    <rect>
-     <x>470</x>
-     <y>110</y>
-     <width>120</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-  </widget>
   <widget class="QPushButton" name="multiChoice">
    <property name="geometry">
     <rect>
-     <x>70</x>
-     <y>410</y>
-     <width>191</width>
-     <height>71</height>
+     <x>20</x>
+     <y>400</y>
+     <width>301</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="text">
     <string>Выбрать файлы</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="selectFolderButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>450</y>
+     <width>301</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Выбрать папку</string>
    </property>
   </widget>
  </widget>
